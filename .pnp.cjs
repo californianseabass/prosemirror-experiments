@@ -42,6 +42,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["html-webpack-plugin", "virtual:fd30a4bdb4acd1bf1634c31cb10574e4c77fba1d1761ee4b1dc01f4b65f03d1a5c397616e1ec99d489994aad6905b85c51a90e567cbaeb100521575ab7f77d04#npm:5.5.0"],\
             ["postcss", "npm:8.4.14"],\
             ["postcss-loader", "virtual:fd30a4bdb4acd1bf1634c31cb10574e4c77fba1d1761ee4b1dc01f4b65f03d1a5c397616e1ec99d489994aad6905b85c51a90e567cbaeb100521575ab7f77d04#npm:7.0.0"],\
+            ["prosemirror-commands", "npm:1.3.0"],\
+            ["prosemirror-history", "virtual:fd30a4bdb4acd1bf1634c31cb10574e4c77fba1d1761ee4b1dc01f4b65f03d1a5c397616e1ec99d489994aad6905b85c51a90e567cbaeb100521575ab7f77d04#npm:1.3.0"],\
+            ["prosemirror-keymap", "npm:1.2.0"],\
             ["prosemirror-model", "npm:1.18.1"],\
             ["prosemirror-schema-basic", "npm:1.2.0"],\
             ["prosemirror-state", "npm:1.4.0"],\
@@ -1435,6 +1438,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["html-webpack-plugin", "virtual:fd30a4bdb4acd1bf1634c31cb10574e4c77fba1d1761ee4b1dc01f4b65f03d1a5c397616e1ec99d489994aad6905b85c51a90e567cbaeb100521575ab7f77d04#npm:5.5.0"],\
             ["postcss", "npm:8.4.14"],\
             ["postcss-loader", "virtual:fd30a4bdb4acd1bf1634c31cb10574e4c77fba1d1761ee4b1dc01f4b65f03d1a5c397616e1ec99d489994aad6905b85c51a90e567cbaeb100521575ab7f77d04#npm:7.0.0"],\
+            ["prosemirror-commands", "npm:1.3.0"],\
+            ["prosemirror-history", "virtual:fd30a4bdb4acd1bf1634c31cb10574e4c77fba1d1761ee4b1dc01f4b65f03d1a5c397616e1ec99d489994aad6905b85c51a90e567cbaeb100521575ab7f77d04#npm:1.3.0"],\
+            ["prosemirror-keymap", "npm:1.2.0"],\
             ["prosemirror-model", "npm:1.18.1"],\
             ["prosemirror-schema-basic", "npm:1.2.0"],\
             ["prosemirror-state", "npm:1.4.0"],\
@@ -4474,6 +4480,53 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["prosemirror-commands", [\
+        ["npm:1.3.0", {\
+          "packageLocation": "./.yarn/cache/prosemirror-commands-npm-1.3.0-2c4d72afe3-1e896b1ddc.zip/node_modules/prosemirror-commands/",\
+          "packageDependencies": [\
+            ["prosemirror-commands", "npm:1.3.0"],\
+            ["prosemirror-model", "npm:1.18.1"],\
+            ["prosemirror-state", "npm:1.4.0"],\
+            ["prosemirror-transform", "npm:1.6.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["prosemirror-history", [\
+        ["npm:1.3.0", {\
+          "packageLocation": "./.yarn/cache/prosemirror-history-npm-1.3.0-c4190c34d0-023feff702.zip/node_modules/prosemirror-history/",\
+          "packageDependencies": [\
+            ["prosemirror-history", "npm:1.3.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:fd30a4bdb4acd1bf1634c31cb10574e4c77fba1d1761ee4b1dc01f4b65f03d1a5c397616e1ec99d489994aad6905b85c51a90e567cbaeb100521575ab7f77d04#npm:1.3.0", {\
+          "packageLocation": "./.yarn/__virtual__/prosemirror-history-virtual-1003418477/0/cache/prosemirror-history-npm-1.3.0-c4190c34d0-023feff702.zip/node_modules/prosemirror-history/",\
+          "packageDependencies": [\
+            ["prosemirror-history", "virtual:fd30a4bdb4acd1bf1634c31cb10574e4c77fba1d1761ee4b1dc01f4b65f03d1a5c397616e1ec99d489994aad6905b85c51a90e567cbaeb100521575ab7f77d04#npm:1.3.0"],\
+            ["@types/prosemirror-state", null],\
+            ["prosemirror-state", "npm:1.4.0"],\
+            ["prosemirror-transform", "npm:1.6.0"],\
+            ["rope-sequence", "npm:1.3.3"]\
+          ],\
+          "packagePeers": [\
+            "@types/prosemirror-state",\
+            "prosemirror-state"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["prosemirror-keymap", [\
+        ["npm:1.2.0", {\
+          "packageLocation": "./.yarn/cache/prosemirror-keymap-npm-1.2.0-36cb458dbe-35ce499a72.zip/node_modules/prosemirror-keymap/",\
+          "packageDependencies": [\
+            ["prosemirror-keymap", "npm:1.2.0"],\
+            ["prosemirror-state", "npm:1.4.0"],\
+            ["w3c-keyname", "npm:2.2.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["prosemirror-model", [\
         ["npm:1.18.1", {\
           "packageLocation": "./.yarn/cache/prosemirror-model-npm-1.18.1-0667ed3899-1c42fac8f4.zip/node_modules/prosemirror-model/",\
@@ -4736,6 +4789,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["rimraf", "npm:3.0.2"],\
             ["glob", "npm:7.2.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["rope-sequence", [\
+        ["npm:1.3.3", {\
+          "packageLocation": "./.yarn/cache/rope-sequence-npm-1.3.3-2c8440686f-f77ef15299.zip/node_modules/rope-sequence/",\
+          "packageDependencies": [\
+            ["rope-sequence", "npm:1.3.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5451,6 +5513,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/vary-npm-1.1.2-b49f70ae63-ae0123222c.zip/node_modules/vary/",\
           "packageDependencies": [\
             ["vary", "npm:1.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["w3c-keyname", [\
+        ["npm:2.2.4", {\
+          "packageLocation": "./.yarn/cache/w3c-keyname-npm-2.2.4-8c6e5969c5-890180452b.zip/node_modules/w3c-keyname/",\
+          "packageDependencies": [\
+            ["w3c-keyname", "npm:2.2.4"]\
           ],\
           "linkType": "HARD"\
         }]\

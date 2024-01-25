@@ -8,10 +8,6 @@ module.exports = {
   entry: [
     './src/index.ts'
   ],
-  output: {
-    path: __dirname + '/dist',
-    filename: "app.bundle.js"
-  },
   module: {
     rules: [
       {
